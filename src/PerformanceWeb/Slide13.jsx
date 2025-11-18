@@ -72,7 +72,7 @@ function Slide13() {
               </div>
               <div className="workflow-step-text">
                 <p style={{ fontWeight: '700' }}>Testes E2E</p>
-                <p style={{ fontSize: '0.875rem' }}>Cypress</p>
+                {/* <p style={{ fontSize: '0.875rem' }}>Cypress</p> */}
               </div>
               <div className="workflow-note">
                 <p>Validação de funcionalidades</p>
