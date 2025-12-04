@@ -1,0 +1,19 @@
+.code-block-wrapper {
+  margin: 10px 0;
+  border-left: 4px solid #4285f4;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.code-block-wrapper pre {
+  margin: 0 !important;
+  background-color: #f1f3f4 !important;
+}
+
+/* Ajustes para melhor legibilidade */
+.code-block-wrapper code {
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Courier New",
+    monospace !important;
+  font-size: 0.875rem !important;
+}

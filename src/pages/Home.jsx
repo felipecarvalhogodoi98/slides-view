@@ -19,6 +19,18 @@ function Home() {
               <i className="fas fa-arrow-right"></i>
             </div>
           </Link>
+          <Link to="/testes-software" className="presentation-card">
+            <div className="presentation-icon">
+              <i className="fas fa-vial"></i>
+            </div>
+            <div className="presentation-info">
+              <h2>Testes de Software</h2>
+              <p>Garantindo Qualidade, Confiabilidade e Segurança</p>
+            </div>
+            <div className="presentation-arrow">
+              <i className="fas fa-arrow-right"></i>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

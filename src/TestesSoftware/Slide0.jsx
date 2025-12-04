@@ -1,0 +1,22 @@
+import './Slide0.css'
+
+function Slide0() {
+  return (
+    <div className="cover-slide">
+      <div className="cover-content">
+        <div className="cover-title">
+          <h1>Testes de Software: Garantindo Qualidade, Confiabilidade e Segurança</h1>
+        </div>
+        <div className="cover-author">
+          <div className="author-info">
+            <p className="author-name">Felipe Godoi</p>
+            <p className="author-team">GUILDA - Martech Engineering</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Slide0
+
