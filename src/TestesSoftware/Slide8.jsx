@@ -4,7 +4,7 @@ import '../components/SlideComponents.css'
 
 function Slide8() {
   return (
-    <SlideBase title="Testes de Software: Garantindo Qualidade, Confiabilidade e Segurança" subtitle="Implementando Testes no dia a dia">
+    <SlideBase title="Testes de Software: Garantindo Qualidade, Confiabilidade e Segurança" subtitle="Testes não funcionais">
       <div className="left-content">
         <div className="topic-section">
           <div className="topic-title">
