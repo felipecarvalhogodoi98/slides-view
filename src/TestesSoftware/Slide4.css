@@ -1,0 +1,60 @@
+.pyramid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+.pyramid-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.pyramid-layer.unit {
+  width: 100%;
+  background-color: #81c784;
+  min-height: 80px;
+}
+
+.pyramid-layer.integration {
+  width: 70%;
+  background-color: #42a5f5;
+  min-height: 70px;
+  margin-top: 4px;
+}
+
+.pyramid-layer.e2e {
+  width: 40%;
+  background-color: #7e57c2;
+  min-height: 60px;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .pyramid-layer {
+    font-size: 1rem;
+    padding: 16px;
+  }
+
+  .pyramid-layer.unit {
+    min-height: 60px;
+  }
+
+  .pyramid-layer.integration {
+    min-height: 50px;
+  }
+
+  .pyramid-layer.e2e {
+    min-height: 45px;
+  }
+}

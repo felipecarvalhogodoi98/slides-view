@@ -5,7 +5,8 @@ function Slide0() {
     <div className="cover-slide">
       <div className="cover-content">
         <div className="cover-title">
-          <h1>Testes de Software: Garantindo Qualidade, Confiabilidade e Segurança</h1>
+          <h1>Testes de Software</h1>
+          <h2>Garantindo Qualidade, Confiabilidade e Segurança</h2>
         </div>
         <div className="cover-author">
           <div className="author-info">

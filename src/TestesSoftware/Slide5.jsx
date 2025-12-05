@@ -1,5 +1,4 @@
 import SlideBase from '../components/SlideBase'
-import CodeBlock from '../components/CodeBlock'
 import '../components/SlideComponents.css'
 
 function Slide5() {
@@ -31,28 +30,32 @@ function Slide5() {
         <div className="topic-section">
           <div className="topic-title">
             <div className="topic-icon"><i className="fas fa-code"></i></div>
-            <h3 className="text-xl font-medium">Exemplo (React + Jest + Testing Library)</h3>
+            <h3 className="text-xl font-medium">Conceitos que veremos no código:</h3>
           </div>
-          <CodeBlock 
-            code={`// Button.test.jsx
-import { render, screen, fireEvent } from "@testing-library/react";
-import { Button } from "./Button";
-
-test("renderiza o label corretamente", () => {
-  render(<Button label="Salvar" />);
-  expect(screen.getByText("Salvar")).toBeInTheDocument();
-});
-
-test("executa a função ao clicar", () => {
-  const mockFn = jest.fn();
-  render(<Button label="Clique" onClick={mockFn} />);
-  
-  fireEvent.click(screen.getByText("Clique"));
-  
-  expect(mockFn).toHaveBeenCalledTimes(1);
-});`}
-            language="jsx"
-          />
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>Mocks</strong> - Objetos que simulam comportamento</p>
+          </div>
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>Stubs</strong> - Retornam valores pré-definidos</p>
+          </div>
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>Fakes</strong> - Implementações funcionais simplificadas</p>
+          </div>
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>Dummies</strong> - Objetos que não são usados</p>
+          </div>
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>Spy</strong> - Observam chamadas de métodos</p>
+          </div>
+          <div className="bullet-point">
+            <div className="bullet-icon"><i className="fas fa-check-circle"></i></div>
+            <p><strong>AAA</strong> - Arrange-Act-Assert (padrão de estrutura)</p>
+          </div>
         </div>
       </div>
       <div className="right-content">
