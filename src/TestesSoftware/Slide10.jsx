@@ -8,7 +8,7 @@ function Slide10() {
         <div className="topic-section">
           <div className="topic-title">
             <div className="topic-icon"><i className="fas fa-chart-pie"></i></div>
-            <h3 className="text-xl font-medium">Cobertura (não é objetivo)</h3>
+            <h3 className="text-xl font-medium">Coverage (não é objetivo)</h3>
           </div>
           <div className="bullet-point">
             <div className="bullet-icon"><i className="fas fa-percentage"></i></div>
